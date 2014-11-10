@@ -115,3 +115,7 @@ public enum JSON : DataConvertible, DataRepresentable {
     }
     
 }
+
+extension Haneke {
+    public typealias HanekeJson = JSON
+}
